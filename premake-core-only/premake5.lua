@@ -40,8 +40,8 @@ project "OptickCore"
     filter "system:windows"
         systemversion "latest"
 
-        targetdir ("../../bin/" .. output_dir .. "/%{prj.name}_win")
-        objdir ("../../bin-obj/" .. output_dir .. "/%{prj.name}_win")
+        targetdir ("../../../bin/" .. output_dir .. "/%{prj.name}_win")
+        objdir ("../../../bin-obj/" .. output_dir .. "/%{prj.name}_win")
         
         links {
 
