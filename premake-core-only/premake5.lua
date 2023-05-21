@@ -1,5 +1,6 @@
 project "OptickCore"
     language "C++"
+    location "./"
     flags {
 
         "NoManifest",
